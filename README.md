@@ -16,7 +16,7 @@ This repository explores how a small Python library loan tracker can be organise
 | Practised code with comments | `code/practice/catalogue_search.py` demonstrates and comments on title-search techniques. |
 | Interesting concept and analysis | `code/concepts/late_fee_policy.py` and `research/research-notes.md` explore where a rule belongs. |
 | Design-principle commentary | Comments in the code and the analysis in this README discuss separation of concerns, single responsibility, avoiding duplicated state, and validation. |
-| Submission document | Copy this README into `IT5016_A3_20267608.docx` or PDF after adding your personal reflection. |
+| Submission document | Copy this completed README into `IT5016_A3_20267608.docx` or PDF, keeping the repository link at the beginning. |
 
 ## Repository contents
 
@@ -75,9 +75,9 @@ The clearest design choice for me was keeping the library’s loan rules separat
 
 ## Sources consulted
 
-- Python documentation, [Data Classes](https://docs.python.org/3/library/dataclasses.html).
-- Python documentation, [`str.casefold`](https://docs.python.org/3/library/stdtypes.html#str.casefold).
-- Python documentation, [Built-in Exceptions: `ValueError`](https://docs.python.org/3/library/exceptions.html#ValueError).
-- Python Enhancement Proposal 8, [Style Guide for Python Code](https://peps.python.org/pep-0008/).
+- Python documentation, Data Classes: https://docs.python.org/3/library/dataclasses.html.
+- Python documentation, `str.casefold`: https://docs.python.org/3/library/stdtypes.html#str.casefold.
+- Python documentation, Built-in Exceptions (`ValueError`): https://docs.python.org/3/library/exceptions.html#ValueError.
+- Python Enhancement Proposal 8, Style Guide for Python Code: https://peps.python.org/pep-0008/.
 
 The Python references informed the use of dataclasses, case-insensitive searching, value validation, and consistent formatting. The design analysis above explains how those choices apply to this particular project.
