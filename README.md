@@ -25,7 +25,7 @@ This repository explores how a small Python library loan tracker can be organise
 | `code/original/library_tracker.py` | Original command-line tracker with a `Book` model and `Library` operations. |
 | `code/practice/catalogue_search.py` | A focused search example practising case-insensitive matching and list comprehensions. |
 | `code/concepts/late_fee_policy.py` | A small concept example that keeps a hypothetical fee rule in a plain function. |
-| `research/research-notes.md` | Design question, evidence from the code, limitations, and a reflection prompt. |
+| `research/research-notes.md` | Design question, evidence from the code, limitations, and personal reflection. |
 
 ## Running the examples
 
