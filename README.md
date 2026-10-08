@@ -7,6 +7,17 @@
 
 This repository explores how a small Python library loan tracker can be organised so its code is readable, maintainable, and easier to extend. The tracker can list books, search titles, loan a book, and record a return. Its data is held in memory, so it resets when the program closes; it is a learning project rather than a production library system.
 
+## Assessment evidence
+
+| Assessment requirement | Evidence in this repository |
+| --- | --- |
+| Repository link | The public GitHub repository linked at the top of this README. |
+| Original code | `code/original/library_tracker.py` implements the library tracker. |
+| Practised code with comments | `code/practice/catalogue_search.py` demonstrates and comments on title-search techniques. |
+| Interesting concept and analysis | `code/concepts/late_fee_policy.py` and `research/research-notes.md` explore where a rule belongs. |
+| Design-principle commentary | Comments in the code and the analysis in this README discuss separation of concerns, single responsibility, avoiding duplicated state, and validation. |
+| Submission document | Copy this README into `IT5016_A3_20267608.docx` or PDF after adding your personal reflection. |
+
 ## Repository contents
 
 | Folder or file | Purpose |
@@ -48,7 +59,7 @@ The library checks for blank book details, duplicate IDs, unknown book IDs, blan
 
 ### Practice example: searching
 
-`catalogue_search.py` isolates title searching in one function. It trims the user's query and uses `casefold()` for case-insensitive matching. The same search behaviour is used in the main tracker, which makes the practice example relevant to the larger program.
+`catalogue_search.py` isolates title searching in one function. It trims the user's query and uses `casefold()` for case-insensitive matching. The tracker applies the same technique when searching its catalogue. The practice file is deliberately a separate, runnable example; if both examples became parts of one larger application, I would move shared search logic into one place to avoid the two implementations drifting apart.
 
 ### Concept example: a focused policy function
 
