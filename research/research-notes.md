@@ -19,6 +19,6 @@ This is a practical design choice rather than a rule that every program needs cl
 
 The tracker stores one copy of each book and loses its data when it exits. A next iteration could add multiple copies and save catalogue and loan data to a file or database. The example fee rule is hypothetical; an actual library would need an agreed policy before this calculation was used.
 
-## Reflection prompt
+## Reflection
 
-Before submission, add a short personal observation: Which separation in the code made it easiest for you to understand or change, and what would you improve next? Use your own experience with the examples rather than leaving this prompt unchanged.
+The clearest design choice for me was keeping the library’s loan rules separate from the menu. This makes the program easier to change because the way a user interacts with it can be updated without changing the loan logic. Next, I would add data storage so books and loans are not lost when the program closes.
