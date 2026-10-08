@@ -69,9 +69,9 @@ The library checks for blank book details, duplicate IDs, unknown book IDs, blan
 
 The tracker supports one copy of each book and keeps data only while it runs. A next version could store multiple copies, keep member records, add due dates, and save data to a file or database. Before adding these features, I would keep the library rules separate from storage and the user interface so each part can change with less impact on the others.
 
-## Personal reflection to complete
+## Personal reflection
 
-Before submitting, add your own short reflection based on using the examples: Which separation made the code easiest for you to understand or change, and what would you improve next? The notes in `research/research-notes.md` can help you form your answer.
+The clearest design choice for me was keeping the library’s loan rules separate from the menu. This makes the program easier to change because the way a user interacts with it can be updated without changing the loan logic. Next, I would add data storage so books and loans are not lost when the program closes.
 
 ## Sources consulted
 
